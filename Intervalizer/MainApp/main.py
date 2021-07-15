@@ -5,7 +5,7 @@ from kivy.uix.recyclegridlayout import GridLayout
 from kivy.uix.button import Button
 from kivy.uix.widget import Widget
 from kivy.properties import ObjectProperty
-from MainApp.IntervalsRandomizer import Randomizer
+from IntervalsRandomizer import Randomizer
      
 class MyGrid(Widget):
     planet_distance = ObjectProperty(None)
