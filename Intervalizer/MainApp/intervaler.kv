@@ -1,0 +1,19 @@
+<MyGrid>
+
+	output: output_id
+
+	GridLayout:
+		cols: 1
+		size: root.width - 200, root.height - 200
+		pos: 100, 100
+				
+		GridLayout:
+			cols: 2
+							
+			Label:
+				id: output_id
+	
+		Button:
+			text: "Fly!"
+			on_press: root.btn()
+				
